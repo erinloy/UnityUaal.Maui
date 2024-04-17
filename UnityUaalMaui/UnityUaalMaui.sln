@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityUaalMaui", "UnityUaalMaui\UnityUaalMaui.csproj", "{89B01022-A919-45B8-A2C3-15B1744CCCC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityUaalMaui", "UnityUaalMaui\UnityUaalMaui.csproj", "{89B01022-A919-45B8-A2C3-15B1744CCCC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidBridge", "AndroidBridge\AndroidBridge.csproj", "{5039D987-1AE7-42EC-9E2E-B94FBEB93197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidBridge", "AndroidBridge\AndroidBridge.csproj", "{5039D987-1AE7-42EC-9E2E-B94FBEB93197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSBridge", "iOSBridge\iOSBridge.csproj", "{028570EA-0AF2-405F-92A2-6A1FCFB6FAB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iOSBridge", "iOSBridge\iOSBridge.csproj", "{028570EA-0AF2-405F-92A2-6A1FCFB6FAB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{89B01022-A919-45B8-A2C3-15B1744CCCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{89B01022-A919-45B8-A2C3-15B1744CCCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B01022-A919-45B8-A2C3-15B1744CCCC4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{89B01022-A919-45B8-A2C3-15B1744CCCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89B01022-A919-45B8-A2C3-15B1744CCCC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5039D987-1AE7-42EC-9E2E-B94FBEB93197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

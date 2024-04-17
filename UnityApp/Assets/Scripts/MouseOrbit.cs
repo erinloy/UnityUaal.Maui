@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
+//using UnityEngine.EventSystems;
 
 [AddComponentMenu("Camera-Control/Mouse Orbit")]
 public class MouseOrbit : MonoBehaviour

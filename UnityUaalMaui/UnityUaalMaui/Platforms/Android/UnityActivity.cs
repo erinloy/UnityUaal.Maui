@@ -71,7 +71,7 @@ public class UnityActivity : Activity,
         Android.Util.Log.Info(GetType().Name, nameof(OnStop) + "|" + GetHashCode() + "|");
         base.OnStop();
 
-        if (!MultiWindowSupport.GetAllowResizableWindow(this))
+        if (!MultiWindowSupport.IsInMultiWindowMode(this))
         {
             return;
         }
@@ -87,7 +87,7 @@ public class UnityActivity : Activity,
 
         MultiWindowSupport.SaveMultiWindowMode(this);
 
-        if (MultiWindowSupport.GetAllowResizableWindow(this))
+        if (MultiWindowSupport.IsInMultiWindowMode(this))
         {
             return;
         }
@@ -101,7 +101,7 @@ public class UnityActivity : Activity,
         Android.Util.Log.Info(GetType().Name, nameof(OnStart) + "|" + GetHashCode() + "|");
         base.OnStart();
 
-        if (!MultiWindowSupport.GetAllowResizableWindow(this))
+        if (!MultiWindowSupport.IsInMultiWindowMode(this))
         {
             return;
         }
@@ -115,7 +115,7 @@ public class UnityActivity : Activity,
         Android.Util.Log.Info(GetType().Name, nameof(OnResume) + "|" + GetHashCode() + "|");
         base.OnResume();
 
-        if (MultiWindowSupport.GetAllowResizableWindow(this) && !MultiWindowSupport.IsMultiWindowModeChangedToTrue(this))
+        if (MultiWindowSupport.IsInMultiWindowMode(this) && !MultiWindowSupport.IsMultiWindowModeChangedToTrue(this))
         {
             return;
         }
